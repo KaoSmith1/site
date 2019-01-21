@@ -24,9 +24,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__portfolio_portfolio_component__ = __webpack_require__("./src/app/portfolio/portfolio.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__resume_resume_component__ = __webpack_require__("./src/app/resume/resume.component.ts");
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__resume_resume_component__ = __webpack_require__("./src/app/resume/resume.component.ts");
 
 
 
@@ -40,13 +38,13 @@ var routes = [{
         path: 'home',
         component: __WEBPACK_IMPORTED_MODULE_1__home_home_component__["a" /* HomeComponent */]
     },
-    {
-        path: 'contact',
-        component: __WEBPACK_IMPORTED_MODULE_2__portfolio_portfolio_component__["a" /* PortfolioComponent */]
-    },
+    // { 
+    //   path: 'contact',
+    //    component: PortfolioComponent 
+    //   },
     {
         path: 'resume',
-        component: __WEBPACK_IMPORTED_MODULE_3__resume_resume_component__["a" /* ResumeComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_2__resume_resume_component__["a" /* ResumeComponent */]
     }
 ];
 var AppRoutingModule = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(routes, {
